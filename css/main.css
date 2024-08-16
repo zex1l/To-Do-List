@@ -1,0 +1,185 @@
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header {
+  padding: 10px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 900px;
+    
+
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 700px;
+    
+
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .container {
+    width: 500px;
+    
+
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .container {
+    width: 300px;
+    
+
+  }
+}
+
+/*=====HEADER==============*/
+
+.header {
+  padding: 10px 20px;
+  background-color: #1c30e1;
+  color: #fff;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/*=================FORM=============*/
+
+.form-section {
+  padding: 50px 0;
+}
+
+.form__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__input {
+  padding: 10px 20px;
+  border: 1px solid #1c30e1;
+  border-radius: 10px;
+}
+
+.form__btn {
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #1c30e1;
+  border: 1px solid #1c30e1;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.form__btn:hover {
+  color: #000;
+  background-color: #fdfdfd;
+  border: 1px solid #1c30e1;
+}
+
+/*=========TASKS===============*/
+
+.tasks {
+  padding: 50px 0;
+}
+
+.tasks__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.tasks__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tasks__list-item {
+  min-width: 300px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  word-wrap: break-word;
+}
+
+.tasks__list-item-title {
+  width: 150px;
+  
+}
+
+
+.tasks__list-item-btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.complete__btn {
+  width: 20px;
+  height: 20px;
+}
+
+
